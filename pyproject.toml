@@ -1,6 +1,9 @@
 [project]
 authors = [{name = "sirwilliamthefirst", email = "30707549+sirwilliamthefirst@users.noreply.github.com"}]
-dependencies = []
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
 name = "Highscores_API"
 requires-python = ">= 3.11"
 version = "0.1.0"
