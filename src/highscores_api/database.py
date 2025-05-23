@@ -8,7 +8,7 @@ import os
 host = "hopandzip.com"  # Change if your DB is not on localhost
 database = "ninja"
 user = "ninja"
-password = "A1b2C3d4E5f6G7h8I9j0K" #getpass.getpass()
+password = getpass.getpass()
 port = 8888
 
 DATABASE_URL = f"postgresql://{user}:{password}@{host}:{port}/{database}"
